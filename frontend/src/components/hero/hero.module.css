@@ -1,0 +1,20 @@
+.hero{
+    width: 100vw;
+    position: relative;
+
+    .bg_text{
+        font-size: 15.2rem;
+        font-weight: 800;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 11rem;
+        color: #242424;
+        z-index: -1000;
+    }
+
+    .character{
+        position: absolute;
+        bottom: 0vh;
+    }
+}

@@ -1,0 +1,38 @@
+.nav{
+    background: var(--tertiary-green);
+    width: 56%;
+    position: fixed;
+    top: 3.3rem;
+    max-width: 200rem;
+    height: 4.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.6rem;
+    display: flex;
+
+    .menu{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-right: 0.2rem;
+        list-style: none;
+        font-size: 1.1rem;
+        
+        li{
+            padding: 1rem;
+            color: black;
+            margin: 0 0.2rem;
+            width: 5rem;
+            border-radius: 0.4rem;
+            transition: 0.5s;
+        }
+        
+        li:hover, .select{
+            background-color: black;
+            /* animation: button_hover 1s; */
+            color: var(--tertiary-green);
+        }
+    }
+}
