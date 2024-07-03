@@ -1,0 +1,8 @@
+footer{
+    z-index: 11;
+    position: relative;
+    color: white;
+    min-height: 30rem;
+    background-color: #677600;
+    
+}

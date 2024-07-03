@@ -1,0 +1,43 @@
+.about{
+    min-height: 100vh;
+    background-color: black;
+    z-index: 10;
+    position: relative;
+    max-width: 70rem;
+    margin-top: 70vh;
+    color: #049384;
+
+    .text{
+        width: 60%;
+        text-align: justify;
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .img{
+
+        position: relative;
+        width: 40%;
+
+        .bg{
+            width: 50%;
+            position: absolute;
+            /* margin: auto; */
+            transform: translateX(-50%);
+            height: 80%;
+            margin-bottom: 0;
+            background: #7f8a03;
+            bottom: 0;
+            left: 50%;
+            z-index: -1;
+            border-radius: 0.7rem;
+        }
+
+        .socials{
+            right: 0;
+            top: 0;
+        }
+    }
+}

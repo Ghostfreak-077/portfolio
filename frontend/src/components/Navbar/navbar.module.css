@@ -9,7 +9,8 @@
     transform: translateX(-50%);
     border-radius: 0.6rem;
     display: flex;
-
+    z-index: 100;
+    
     .menu{
         padding-left: 0;
         display: flex;
@@ -18,13 +19,14 @@
         margin: auto;
         margin-right: 0.2rem;
         list-style: none;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        
         
         li{
             padding: 1rem;
             color: black;
             margin: 0 0.2rem;
-            width: 5rem;
+            width: 7rem;
             border-radius: 0.4rem;
             transition: 0.5s;
         }
