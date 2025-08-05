@@ -1,0 +1,7 @@
+.card{
+    border-color: var(--tertiary-green);
+    border: solid 0.2rem;
+    border-radius: 0.7rem;
+    width: 20rem;
+    height: 16rem;
+}

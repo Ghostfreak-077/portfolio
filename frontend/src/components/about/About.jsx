@@ -3,6 +3,10 @@ import style from './about.module.css'
 import contextVar from '../../ContextFile'
 import common from '../common.module.css'
 import profile from '../../assets/profile.png'
+import { ImLinkedin } from 'react-icons/im'
+import { IoLogoGithub } from 'react-icons/io'
+import { FaHashnode } from 'react-icons/fa6'
+import { PiReadCvLogoFill } from 'react-icons/pi'
 
 const About = () => {
 
@@ -27,9 +31,17 @@ const About = () => {
         <div className={`${style.enclose} d-flex`}>
           <p className={style.text}>{about}</p>
           <div className={`${style.img}`}>
-            <img src={profile} alt="" />
-            <div className={`${style.bg}`}></div>
-            <div className={`${style.socials} position-absolute`}>Hello</div>
+            <div className={style.img_enclose}>
+              <img src={profile} alt="" className={style.jpg} />
+              <div className={`${style.bg}`}></div>
+
+              <div className={`${style.socials} position-absolute`}>
+                <a href='https://www.linkedin.com/in/partha-pratim-deka-46a406203/' target='_blank' className={style.circles} title='Linkedin'><ImLinkedin/></a>
+                <a href='https://github.com/Ghostfreak-077/' target='_blank' className={style.circles} title='Github'><IoLogoGithub/></a>
+                <a href='https://hashnode.com/@ghostfreak077' target='_blank' className={style.circles} title='Hashnode'><FaHashnode/></a>
+                <a href='http://bit.ly/parthaxntn-mern-resume' title='Resume/CV' target='_blank'  className={style.circles}><PiReadCvLogoFill/></a>
+              </div>
+            </div>
           </div>
         </div>
     </div>
