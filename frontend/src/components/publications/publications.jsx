@@ -1,12 +1,12 @@
 import React from 'react'
-import style from './projects.module.css'
+import style from './publications.module.css'
 import common from '../common.module.css'
 import Cards from '../cards/cards'
 
-const Projects = () => {
+const Publications = () => {
   return (
-    <div className={`${style.projects} container`}>
-        <h1 className={common.heading}>Projects</h1>
+    <div className={`${style.publications} container position-relative`}>
+        <h1 className={`${common.heading}`}>Publications</h1>
         <div className={common.cards}>
           <Cards/>
           <Cards/>
@@ -18,4 +18,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Publications

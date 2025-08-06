@@ -1,7 +1,54 @@
 .card{
-    border-color: var(--tertiary-green);
     border: solid 0.2rem;
+    border-color: var(--tertiary-green);
     border-radius: 0.7rem;
     width: 20rem;
     height: 16rem;
+    position: relative;
+    overflow: hidden;
+
+    .title{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .description{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0 1rem;
+    }
+    
+    .bg_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.7rem;
+        object-fit: cover;
+    }
+    
+    .card_content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.7rem;
+        text-align: center;
+        background-color: #a2af198f;
+        backdrop-filter: blur(1rem);
+        transition: 0.35s;
+        transition-delay: 0.1s;
+        transform-style: flat;
+        transform: translateY(100%);
+        color: black;
+    }
+}
+
+.card:hover {
+    .card_content {
+        transform: translateY(0);
+    }
 }

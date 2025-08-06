@@ -25,6 +25,17 @@ const About = () => {
       .then((data) => setAbout(data.data.attributes.About))
   }, [])
 
+  const socials = () => {
+    (
+              <div className={`${style.socials} position-absolute`}>
+                <a href='https://www.linkedin.com/in/partha-pratim-deka-46a406203/' target='_blank' className={style.circles} title='Linkedin'><ImLinkedin/></a>
+                <a href='https://github.com/Ghostfreak-077/' target='_blank' className={style.circles} title='Github'><IoLogoGithub/></a>
+                <a href='https://hashnode.com/@ghostfreak077' target='_blank' className={style.circles} title='Hashnode'><FaHashnode/></a>
+                <a href='http://bit.ly/parthaxntn-mern-resume' title='Resume/CV' target='_blank'  className={style.circles}><PiReadCvLogoFill/></a>
+              </div>
+    )
+  }
+
   return (
     <div className={`${style.about} container`}>
         <h1 className={`${common.heading}`}>About Me</h1>
@@ -34,13 +45,7 @@ const About = () => {
             <div className={style.img_enclose}>
               <img src={profile} alt="" className={style.jpg} />
               <div className={`${style.bg}`}></div>
-
-              <div className={`${style.socials} position-absolute`}>
-                <a href='https://www.linkedin.com/in/partha-pratim-deka-46a406203/' target='_blank' className={style.circles} title='Linkedin'><ImLinkedin/></a>
-                <a href='https://github.com/Ghostfreak-077/' target='_blank' className={style.circles} title='Github'><IoLogoGithub/></a>
-                <a href='https://hashnode.com/@ghostfreak077' target='_blank' className={style.circles} title='Hashnode'><FaHashnode/></a>
-                <a href='http://bit.ly/parthaxntn-mern-resume' title='Resume/CV' target='_blank'  className={style.circles}><PiReadCvLogoFill/></a>
-              </div>
+              {}
             </div>
           </div>
         </div>

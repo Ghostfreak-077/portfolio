@@ -14,7 +14,7 @@ const Navbar = ({nav, setNav}) => {
           <li className={nav >= screen.height && nav <= screen.height*2 ?style.select:''} onClick={()=>{scrolling(1.35)}} >About</li>
           <li className={nav >= screen.height*2 && nav <= screen.height*3 ?style.select:''} onClick={()=>{scrolling(2.2)}} >My Work</li>
           <li className={nav >= screen.height*3 && nav <= screen.height*4 ?style.select:''} onClick={()=>{scrolling(1.0*3)}}>Projects</li>
-          <li>Blogs</li>
+          <li className={nav >= screen.height*4 && nav <= screen.height*5 ?style.select:''} onClick={()=>{scrolling(4)}}>Publications</li>
         </ul>
       </div>
     </b>
