@@ -7,7 +7,7 @@ import { FaHashnode } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className={style.footer}>
-      <div className={style.container}>
+      <div>
         <div className={style.row}>
           <div className={style.col}>
             <h3>About Me</h3>

@@ -1,4 +1,5 @@
 footer{
+    width: 100vw;
     z-index: 11;
     position: relative;
     color: white;
@@ -7,10 +8,6 @@ footer{
     background-color: #1b2735;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .row {
     display: flex;

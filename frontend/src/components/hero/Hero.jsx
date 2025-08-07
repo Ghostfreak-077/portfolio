@@ -102,7 +102,7 @@ const Hero = () => {
           <div className={style.character}>
             <div className={style.eye_cover} id="eye_cover"></div>
             <img src={character} alt="" className={style.img} />
-            <div className={style.transition} id="transition"></div>
+            {/* <div className={style.transition} id="transition"></div> */}
           </div>
 
           <div className={style.enclose}>
