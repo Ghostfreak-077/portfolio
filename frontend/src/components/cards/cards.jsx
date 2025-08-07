@@ -9,10 +9,10 @@ const Cards = () => {
       <img src={demo} className={style.bg_img} alt="" />
       <div className={style.card_content}>
         <h2 className={style.title}>Detecting anomaly in real time AIS data of ships</h2>
-        <p className={style.description}>
+        <p className={style.description} >
           This is a brief description of the card content. It provides an overview of what the card is about.
         </p>
-        <button className={common.button}>Learn More</button>
+        {/* <button className={common.button}>Learn More</button> */}
       </div>
     </div>
   )
