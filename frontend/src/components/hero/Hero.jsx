@@ -25,7 +25,7 @@ const Hero = () => {
       window.addEventListener('scroll',()=>{
 
         setNav(window.scrollY)
-        transition.style.transform = `scale(${(window.scrollY/screen.height)*rem_size*2})`
+        // transition.style.transform = `scale(${(window.scrollY/screen.height)*rem_size*2})`
 
         if(window.scrollY > 0){
           eye_cover.style.height = '0'
@@ -51,6 +51,8 @@ const Hero = () => {
       </div>
       <div className={style.hero}>
         <Navbar nav={nav} setNav={setNav} />
+
+        <div className={style.parallax}></div>
 
         <div className={style.scroll_anim}>
           <span>

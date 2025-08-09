@@ -1,15 +1,16 @@
 .about {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: black;
   z-index: 10;
+  margin: 14rem auto;
   position: relative;
   max-width: 70rem;
-  margin-top: 70vh;
   color: #049384;
 
   .enclose {
     display: flex;
     flex-direction: row;
+    margin: auto;
   }
 
   .text {
@@ -91,6 +92,9 @@
 
 @media screen and (max-width: 768px) {
   .about {
+
+    margin: 8rem auto;
+
     .enclose {
       flex-direction: column;
       margin-top: 15rem;

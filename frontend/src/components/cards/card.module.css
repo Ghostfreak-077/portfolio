@@ -45,6 +45,25 @@
         transform: translateY(100%);
         color: black;
     }
+
+    .links {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0;
+        gap: 1rem;
+
+        .link{
+            color: black;
+            text-decoration: none;
+
+            svg{
+                width: 1.4rem;
+                height: 1.4rem;
+            }
+        }
+    }
 }
 
 .card:hover {

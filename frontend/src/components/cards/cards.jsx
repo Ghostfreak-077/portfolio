@@ -2,6 +2,8 @@ import React from 'react'
 import style from './card.module.css'
 import common from '../common.module.css'
 import demo from '../../assets/demo_hacks.png'
+import { TbExternalLink } from 'react-icons/tb'
+import { IoLogoGithub } from 'react-icons/io'
 
 const Cards = () => {
   return (
@@ -12,6 +14,14 @@ const Cards = () => {
         <p className={style.description} >
           This is a brief description of the card content. It provides an overview of what the card is about.
         </p>
+        <ul className={style.links}>
+          <li>
+            <a href="#" className={style.link}><TbExternalLink/></a>
+          </li>
+          <li>
+            <a href="#" className={style.link}><IoLogoGithub/></a>
+          </li>
+        </ul>
         {/* <button className={common.button}>Learn More</button> */}
       </div>
     </div>
