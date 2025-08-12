@@ -46,9 +46,9 @@ const Hero = () => {
 
   return (
     <>
-      <div className={style.chat}>
+      {/* <div className={style.chat}>
         <IoChatboxEllipses />
-      </div>
+      </div> */}
       <div className={style.hero}>
         <Navbar nav={nav} setNav={setNav} />
 
@@ -76,7 +76,7 @@ const Hero = () => {
           <span>
             <FaAngleDown />
           </span>
-          <span>
+          {/* <span>
             <FaAngleDown />
           </span>
           <span>
@@ -84,13 +84,7 @@ const Hero = () => {
           </span>
           <span>
             <FaAngleDown />
-          </span>
-          <span>
-            <FaAngleDown />
-          </span>
-          <span>
-            <FaAngleDown />
-          </span>
+          </span> */}
         </div>
 
         <div className={style.bg_text}>GHOSTFREAK</div>

@@ -19,6 +19,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    background-color: black;
     height: 100vh;
     z-index: -1;
 
@@ -28,22 +29,69 @@
         bottom: 5rem;
         width: 2rem;
         height: 10rem;
-        border-right: solid 0.1rem #049384;
+        border-right: solid 0.1rem var(--scroll-icons-color);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 1rem;
         
         span{
-            background-color: aqua;
-            background-clip: text;
-            --webkit-background-clip: text;
-            color: transparent;
-            /* color: #049384; */
-            margin: -0.4rem 0;
-            padding: 0;
-            /* -webkit-text-fill-color: none; */
+            color: var(--scroll-icons-color);
+            animation: scroll_anim 1s infinite linear forwards;
+            display: flex;
+            flex-direction: column;
+            
+            svg {
+                width: 1.2rem;
+                height: 1.2rem;
+                margin: auto;
+            }
         }
+            span:nth-child(1){
+                animation-delay: 0.1s;
+            }
+            span:nth-child(2){
+                animation-delay: 0.2s;
+            }
+            span:nth-child(3){
+                animation-delay: 0.3s;
+            }
+            span:nth-child(4){
+                animation-delay: 0.4s;
+            }
+            span:nth-child(5){
+                animation-delay: 0.5s;
+            }
+            span:nth-child(6){
+                animation-delay: 0.6s;
+            }
+            span:nth-child(7){
+                animation-delay: 0.7s;
+            }
+            span:nth-child(8){
+                animation-delay: 0.8s;
+            }
+            span:nth-child(9){
+                animation-delay: 0.9s;
+            }
+            span:nth-child(10){
+                animation-delay: 1s;
+            }
+        }
+        
+        .scroll_anim::after{
+            content: '';
+            position: absolute;
+            width: 0.1rem;
+            height: 80%;
+            border-color: var(--scroll-icons-color);
+            border: 0.1rem solid;
+            right: -0.7rem;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: -1;
+            border-right-style: dashed;
     }
 
     .bg_text {
@@ -55,7 +103,7 @@
         left: 50%;
         transform: translateX(-50%);
         top: 10rem;
-        color: #242424;
+        color: var(--bg-text);
         z-index: 0;
     }
 
@@ -226,6 +274,15 @@
     }
     100%{
         transform: rotateZ(10deg);
+    }
+}
+
+@keyframes scroll_anim {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0.2rem);
     }
 }
 

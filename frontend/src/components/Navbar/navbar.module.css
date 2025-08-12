@@ -38,3 +38,23 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+    .nav {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        
+        .menu {
+            font-size: 0.9rem;
+
+            li {
+                padding: 0.8rem;
+                margin: 0 0.1rem;
+            }
+        }
+    }
+}
