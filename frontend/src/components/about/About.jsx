@@ -4,9 +4,10 @@ import contextVar from '../../ContextFile'
 import common from '../common.module.css'
 import profile from '../../assets/profile.png'
 import { ImLinkedin } from 'react-icons/im'
-import { IoLogoGithub } from 'react-icons/io'
+import { IoLogoGithub, IoIosMail } from 'react-icons/io'
 import { FaHashnode } from 'react-icons/fa6'
 import { PiReadCvLogoFill } from 'react-icons/pi'
+import data from '../../assets/info.json'
 
 const About = () => {
 
@@ -35,17 +36,17 @@ const About = () => {
               <div className={`${style.socials}`}>
                 <a href='https://www.linkedin.com/in/partha-pratim-deka-46a406203/' target='_blank' className={style.circles} title='Linkedin'><ImLinkedin/></a>
                 <a href='https://github.com/Ghostfreak-077/' target='_blank' className={style.circles} title='Github'><IoLogoGithub/></a>
-                <a href='https://hashnode.com/@ghostfreak077' target='_blank' className={style.circles} title='Hashnode'><FaHashnode/></a>
-                <a href='http://bit.ly/parthaxntn-mern-resume' title='Resume/CV' target='_blank'  className={style.circles}><PiReadCvLogoFill/></a>
+                <a href='mailto:parthapratimdeka140@gmail.com' target='_blank' className={style.circles} title='Mail'><IoIosMail /></a>
+                <a href='https://drive.google.com/file/d/1wqySNAqU_l6xzEMlLznSI2GakgVyt7jY/view?usp=sharing' title='Resume/CV' target='_blank'  className={style.circles}><PiReadCvLogoFill/></a>
               </div>
     )
   }
 
   return (
-    <div className={`${style.about} container`}>
+    <div className={`${style.about} container`} id='about'>
         <h1 className={`${common.heading}`}>About Me</h1>
         <div className={`${style.enclose} d-flex`}>
-          <p className={style.text}>{about}</p>
+          <p className={style.text}>{data.about.text}</p>
           {windowWidth <= 768 && socials()}
           <div className={`${style.img}`}>
             <div className={style.img_enclose}>

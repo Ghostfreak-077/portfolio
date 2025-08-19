@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+projects_to_be_shown.txt
 
 # Editor directories and files
 .vscode/*

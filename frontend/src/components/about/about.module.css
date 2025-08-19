@@ -5,7 +5,7 @@
   margin: 14rem auto;
   position: relative;
   max-width: 70rem;
-  color: #049384;
+  color: var(--font-green);
 
   .enclose {
     display: flex;

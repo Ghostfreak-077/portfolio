@@ -5,4 +5,12 @@
     position: relative;
     max-width: 70rem;
     color: #049384;
+
+    .cards {
+        width: 100%;
+        margin: 7rem auto 15rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
 }

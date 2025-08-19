@@ -1,0 +1,146 @@
+{
+    "about": {
+        "text": "I am a Computer Science and Engineering graduate from NIT Silchar, with a passion for software development and machine learning. I have led a team of developers in organizing workshops and events, and I am actively involved in various projects that leverage my skills in programming and problem-solving.",
+        "socials": {
+            "github": "#",
+            "twitter": "#",
+            "linkedin": "#",
+            "website": "#"
+        }
+    },
+    "experience": [
+        {
+            "title": "Software Engineer Intern",
+            "company": "Cimpress",
+            "duration": "8th Jan 2025\n- 30th Jun 2025",
+            "description": "- Worked on setting up CI/CD pipelines and automating deployment processes.\n- Created cloud infrastructure to manage applications and services.\n- Developed and maintained web applications using React and Node.js.\n- Collaborated with cross-functional teams to deliver high-quality software solutions."
+        },
+        {
+            "title": "Lead",
+            "company": "Google Developer Student Club",
+            "duration": "Jun 2023\n- July 2024",
+            "description": "- Led a team of 80+ developers in organizing 22 workshops and events.\n- Mentored junior developers and provided guidance on best practices.\n- Coordinated with industry professionals to enhance learning experiences.\n- Managed community outreach and engagement activities."
+        },
+        {
+            "title": "Computer Science and Engineering Student",
+            "company": "National Institute of Technology, Silchar",
+            "duration": "Dec 2021\n- Jun 2025",
+            "description": "- Pursued a Bachelor's degree in Computer Science and Engineering.\n- Engaged in various academic projects and research activities.\n- Participated in coding competitions and hackathons to enhance problem-solving skills.\n- Involved in student organizations and technical clubs."
+        },
+        {
+            "title": "Intern",
+            "company": "Agrijod",
+            "duration": "Aug 2023\n- Sep 2023",
+            "description": "- Developed React applications from scratch.\n- Implemented responsive web designs and ensured cross-browser compatibility.\n- Collaborated with the design team to create user-friendly interfaces"
+        },
+        {
+            "title": "Software Developer Intern",
+            "company": "Payper Finance",
+            "duration": "May 2022\n- Aug 2022",
+            "description": "- Developed the website from scratch using React.js.\n- Implemented and integrated RESTful APIs for data retrieval and manipulation.\n- Collaborated with the design team to create a user-friendly interface.\n- Conducted testing and debugging to ensure high-quality software delivery."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Implementing ML concepts",
+            "description": "In this repository, I have implemented various machine learning concepts using Python and its libraries. The projects doesn't deliver anything unique but are a good way to understand the concepts and algorithms used in a lot of these papers.",
+            "links": [
+                {
+                    "name": "github",
+                    "url": "https://github.com/Ghostfreak-077/implementing-concepts"
+                }
+            ],
+            "bg": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1755613033/portfolio/projects/Screenshot_from_2025-08-19_19-46-51_gk9tr0.webp",
+            "tags": ["Ongoing"]
+        },
+        {
+            "name": "Zero watermarking for medical images",
+            "description": "In this thesis, we have implemented a zero watermarking technique for medical images using deep learning. The project focuses on using Vision Transformers (ViT) to extract features from medical images and then apply a zero watermarking technique to ensure the integrity and authenticity of the images.",
+            "links": [
+                {
+                    "name": "link",
+                    "url": "https://drive.google.com/file/d/1mB5pb-rvN6V97Myyan5zyOK-7QEwCu7M/view?usp=sharing"
+                }
+            ],
+            "bg": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1755610547/portfolio/projects/Screenshot_from_2025-08-19_19-05-31_zsn09z.png",
+            "tags": ["Thesis"]
+        },
+        {
+            "name": "Aquintel",
+            "description": "Early Oil spill detection sytem leveraging anomaly in vessel's AIS data and SAR satellite imagery. This project is a part of Smart India Hackathon 2024, under the Ministry of Earth Sciences, Government of India.",
+            "links": [
+                {
+                    "name": "github",
+                    "url": "https://github.com/shree-pragya/Aquintel"
+                }
+            ],
+            "bg": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1755610865/portfolio/projects/Screenshot_from_2025-08-19_19-10-35_tcl4xv.png",
+            "tags": ["SIH 2024"]
+        },
+        {
+            "name": "CardioCare",
+            "description": "A web application that uses ESP8266 and MAX30100 sensors to monitor heart rate and oxygen levels, providing real-time health data.",
+            "links": [
+                {
+                    "name": "github",
+                    "url": "https://github.com/Ghostfreak-077/cardio-care-pwa"
+                },
+                {
+                    "name": "link",
+                    "url": "https://cardio-care-pwa.onrender.com/"
+                }
+            ],
+            "bg":"https://res.cloudinary.com/dhgfsshq4/image/upload/v1755611032/portfolio/projects/Screenshot_from_2025-08-19_19-13-26_j7fvvj.webp",
+            "tags": []
+        },
+        {
+            "name": "Computer Science Society: Official Website",
+            "description": "The offical website of the Computer Science Society of NIT Silchar, designed to provide information about the society's activities, members and events.",
+            "links": [
+                {
+                    "name": "github",
+                    "url": "https://github.com/ComputerScienceSoceityNITS/CSSWebsite"
+                },
+                {
+                    "name": "link",
+                    "url": "https://css-2-0-933wxiz22-css-dev-wing.vercel.app/"
+                }
+            ],
+            "bg":"https://res.cloudinary.com/dhgfsshq4/image/upload/v1755611101/portfolio/projects/Screenshot_from_2025-08-19_19-14-42_tfgv7r.webp",
+            "tags": []
+        },
+        {
+            "name": "Nits Hacks 6.0: Official Website",
+            "description": "This is the official website of Nits Hacks 6.0, a hackathon event organized by NIT Silchar. The website provides information about the event, including registration details, schedule, and resources for participants.",
+            "links": [
+                {
+                    "name": "github",
+                    "url": "https://github.com/gdsc-nits-org/nits-hacks-6.0"
+                },
+                {
+                    "name": "link",
+                    "url": "https://nits-hacks-6-0-hkqvr0qea-nitshacks.vercel.app/"
+                }
+            ],
+            "bg":"https://res.cloudinary.com/dhgfsshq4/image/upload/v1755611170/portfolio/projects/Screenshot_from_2025-08-19_19-15-49_mflolf.webp",
+            "tags": []
+        },
+        {
+            "name": "AIINITS: Official Website",
+            "description": "This is the official website of All India Inter-NIT Tournament, a sports event that brings together students from various NITs across India to compete in different sports.",
+            "links": [
+                {
+                    "name": "github",
+                    "url": "https://github.com/Ghostfreak-077/internit-2022-website"
+                },
+                {
+                    "name": "link",
+                    "url": "https://aiinits22.netlify.app/"
+                }
+            ],
+            "bg":"https://res.cloudinary.com/dhgfsshq4/image/upload/v1755611365/portfolio/projects/Screenshot_from_2025-08-19_19-19-04_xumzuh.webp",
+            "tags": []
+        }
+    ]
+    
+}
